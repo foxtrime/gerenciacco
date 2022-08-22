@@ -16,8 +16,12 @@ Route::group(['middleware' => ['auth']], function () {
 
 	
 	
+	Route::get('configforms',			'FormularioController@configindex')->name('configforms');
+	Route::get('configform/create',	'FormularioController@configcreate');
+	Route::post('configform/save',		'FormularioController@configsave');
 
 
 	Route::resource('user',			'UserController');
 	Route::resource('setores',		'SetorController');
+	Route::resource('unidades',		'UnidadeController');
 });

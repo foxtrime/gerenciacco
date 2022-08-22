@@ -9,7 +9,8 @@
 				<li><a href="{{ url("/user") }}">	<i class="fa fa-list">	</i> Funcionarios </a> </li>	
 				<li><a><i class="fas fa-cogs"></i> Configurações <span class="fa fa-chevron-down"></span></a>
 					<ul class="nav child_menu">
-						<li><a href="{{ url("/setores") }}">	<i class="fa fa-list">	</i> Setores </a> </li>						
+						<li><a href="{{ url("/setores") }}">	<i class="fa fa-list">	</i> Setores </a> </li>
+						<li><a href="{{ url("/unidades") }}">	<i class="fa fa-list">	</i> Unidades </a> </li>
 					</ul>
 				</li>
 			@endif
@@ -18,7 +19,8 @@
 				<li><a href="{{ url("/user") }}">	<i class="fa fa-list">	</i> Funcionarios </a> </li>
 				<li><a><i class="fas fa-cogs"></i> Configurações <span class="fa fa-chevron-down"></span></a>
 					<ul class="nav child_menu">
-						{{-- <li><a href="{{ url("/setores") }}">	<i class="fa fa-list">	</i> Setores </a> </li>						 --}}
+						<li><a href="{{ url("/configforms") }}">	<i class="fa fa-list">	</i> Formularios </a> </li>
+						<li><a href="{{ url("/unidades") }}">	<i class="fa fa-list">	</i> Unidades </a> </li>					
 					</ul>
 				</li>	
 
